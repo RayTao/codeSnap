@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>Obj-C UITableViewCell自定义</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>
+- (void)awakeFromNib {
+    // Initialization code
+    [self setAppearence];
+    [self setViewsMASConstraint];
+}
+
+#pragma mark - set UI content
+
+
+#pragma mark - event response
+
+
+#pragma mark - set UI init
+
+- (void)setAppearence
+{
+    
+}
+
+#pragma mark - set Constraint
+
+- (void)setViewsMASConstraint
+{
+    
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>30BC1073-2F40-4D77-B658-22AD1E5E58FA</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Obj-C UITableViewCell自定义</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

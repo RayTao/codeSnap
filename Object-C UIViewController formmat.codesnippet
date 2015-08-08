@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>Obj-C UIViewController formmat</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>
+#pragma mark - life cycle
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
+- (void)viewDidLoad {
+    
+    [self setUIContent];
+    [self setViewsMASConstraint];
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    
+}
+
+- (void)viewWillDisappear:(BOOL)animate {
+    
+    
+}
+
+- (void)viewDidLayoutSubviews {
+}
+
+#pragma mark - UITableViewDelegate
+
+
+
+#pragma mark - CustomDelegate
+
+
+
+#pragma mark - event response
+
+
+
+#pragma mark - private methods
+
+- (void)setBarButtonItem {
+    UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@" " style:UIBarButtonItemStylePlain  target:self  action:nil];
+    self.navigationItem.backBarButtonItem = backButton;
+}
+
+- (void)setNavigationBar {
+    UINavigationBar *navBar = self.navigationController.navigationBar;
+    navBar.tintColor = [UIColor whiteColor];
+    navBar.titleTextAttributes = @{NSForegroundColorAttributeName : [UIColor whiteColor]};
+}
+
+- (void)setUIContent {
+    [self setNavigationBar];
+    [self setBarButtonItem];
+    if ([self respondsToSelector:@selector(setEdgesForExtendedLayout:)]) {
+        self.edgesForExtendedLayout = UIRectEdgeNone;
+    }
+}
+
+- (void)setViewsMASConstraint {
+   
+}
+
+#pragma mark - getters and settters
+
+
+
+#pragma mark - debug operation
+- (void)updateOnClassInjection {
+    
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>E9968880-D950-496C-B266-ABCFE7B14E46</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>视图控制器规范</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Obj-C UIViewController formmat</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
